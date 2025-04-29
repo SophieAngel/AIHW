@@ -1,21 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #ffe4e1;
 }
 
 #chatbox-container {
     width: 100%;
     max-width: 400px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 16px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #fff0f5;
+    border: 2px solid #ff69b4;
 }
 
 #chatbox {
@@ -28,32 +29,36 @@ body {
     flex: 1;
     padding: 10px;
     overflow-y: auto;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #ff69b4;
+    background-color: #fffaf0;
 }
 
 #input-container {
     display: flex;
     padding: 10px;
-    border-top: 1px solid #ddd;
+    border-top: 2px solid #ff69b4;
+    background-color: #fffaf0;
 }
 
 #message-input {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
     margin-right: 10px;
+    background-color: #fffaf0;
 }
 
 #send-button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ff69b4;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 #send-button:hover {
-    background-color: #0056b3;
+    background-color: #ff1493;
 }
