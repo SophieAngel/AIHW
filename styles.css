@@ -1,22 +1,21 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffe4e1;
+    background-color: #f9f9f9;
 }
 
 #chatbox-container {
     width: 100%;
     max-width: 400px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 16px;
+    border-radius: 8px;
     overflow: hidden;
-    background-color: #fff0f5;
-    border: 2px solid #ff69b4;
+    background-color: #ffffff;
 }
 
 #chatbox {
@@ -29,36 +28,35 @@ body {
     flex: 1;
     padding: 10px;
     overflow-y: auto;
-    border-bottom: 2px solid #ff69b4;
-    background-color: #fffaf0;
+    border-bottom: 1px solid #ddd;
+    background-color: #f4f4f4;
 }
 
 #input-container {
     display: flex;
     padding: 10px;
-    border-top: 2px solid #ff69b4;
-    background-color: #fffaf0;
+    border-top: 1px solid #ddd;
+    background-color: #ffffff;
 }
 
 #message-input {
     flex: 1;
     padding: 10px;
-    border: 2px solid #ff69b4;
-    border-radius: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
     margin-right: 10px;
-    background-color: #fffaf0;
 }
 
 #send-button {
     padding: 10px 20px;
-    background-color: #ff69b4;
-    color: #fff;
+    background-color: #007bff;
+    color: #ffffff;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     cursor: pointer;
-    font-weight: bold;
+    transition: background-color 0.3s;
 }
 
 #send-button:hover {
-    background-color: #ff1493;
+    background-color: #0056b3;
 }
